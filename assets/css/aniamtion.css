@@ -1,0 +1,47 @@
+.showtotop {
+  opacity: 0;
+}
+.active .showtotop {
+  animation: showtop 1.5s ease-in-out 1 forwards;
+}
+@keyframes showtop {
+  from {
+    opacity: 0;
+    transform: translate(0, 100px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0);
+    filter: blur(0);
+  }
+}
+.delay-01 {
+  animation-delay: 0.1s !important;
+}
+.delay-02 {
+  animation-delay: 0.2s !important;
+}
+.delay-03 {
+  animation-delay: 0.3s !important;
+}
+.delay-04 {
+  animation-delay: 0.4s !important;
+}
+.delay-05 {
+  animation-delay: 0.5s !important;
+}
+.delay-06 {
+  animation-delay: 0.6s !important;
+}
+.delay-07 {
+  animation-delay: 0.7s !important;
+}
+.delay-08 {
+  animation-delay: 0.8s !important;
+}
+.drop-shadow {
+  filter: drop-shadow(6px 4px #000) !important;
+}
+.blur-33 {
+  filter: blur(33px);
+}
